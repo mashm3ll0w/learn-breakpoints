@@ -1,0 +1,22 @@
+@media screen and (min-width: 520px) and (max-width: 767px) {
+	body {
+		background-color: black;
+		color: yellow;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	body {
+		background-color: green;
+	}
+	/* .article-columns{
+    text-align: center;
+    padding: 1rem;
+    margin: 20px;
+  } */
+	.column {
+		padding: 15px;
+		width: 220px;
+		float: left;
+	}
+}
